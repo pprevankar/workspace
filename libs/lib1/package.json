@@ -1,34 +1,27 @@
 {
   "name": "@pprevankar/lib1",
   "version": "1.0.0",
-  "main": "./src/index.ts"
-}
-
-
-{
-  "name": "@pprevankar/lib1",
-  "version": "1.0.0",
-  "description": "Checking parent package details",
+  "description": "Checking lib1 package details",
   "main": "./src/index.ts",
   "scripts": {
     "test": "exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/your-lib1-repo.git"
+    "url": "git+https://github.com/pprevankar/workspace.git"
   },
   "publishConfig": {
     "@pprevankar:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
-    "parent"
+    "lib1"
   ],
   "author": "cret",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pprevankar/parent-pkg/issues"
+    "url": "https://github.com/pprevankar/workspace/issues"
   },
-  "homepage": "https://github.com/pprevankar/parent-pkg#readme",
+  "homepage": "https://github.com/pprevankar/workspace#readme",
   "dependencies": {
     "@pprevankar/github-pkg": "^1.0.0",
     "express": "^4.19.2"
